@@ -10,22 +10,17 @@ operacao = int(input("Escolha uma opção: "))
 num1 = float(input("Primeiro número  -> "))
 num2 = float(input("Segundo número -> "))
 
-if(operacao == 1){
+if(operacao == 1):
     resultado = num1 + num2
     print(f"{num1} + {num2} = {resultado}")
-}
-elif(operacao == 2){
+elif(operacao == 2):
     resultado = num1 - num2
     print(f"{num1} - {num2} = {resultado}")
-}
-elif(operacao == 3){
+elif(operacao == 3):
     resultado = num1 * num2
     print(f"{num1} x {num2} = {resultado}")
-}
-elif(operacao == 4){
+elif(operacao == 4):
     resultado = num1 / num2
     print(f"{num1} : {num2} = {resultado}")
-}
-else{
+else:
     print("Operação inválida!")
-}
