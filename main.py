@@ -10,6 +10,7 @@ operacao = int(input("Escolha uma opção: "))
 num1 = float(input("Primeiro número  -> "))
 num2 = float(input("Segundo número -> "))
 
+## Aqui ele realiza as operações de acordo com a escolha do usuário
 if(operacao == 1):
     resultado = num1 + num2
     print(f"{num1} + {num2} = {resultado}")
@@ -22,5 +23,5 @@ elif(operacao == 3):
 elif(operacao == 4):
     resultado = num1 / num2
     print(f"{num1} : {num2} = {resultado}")
-else:
+else: ## Se uma operação inválida for escolhida, ele trata o erro
     print("Operação inválida!")
